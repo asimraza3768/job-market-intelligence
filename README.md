@@ -226,10 +226,25 @@ This allows the entire pipeline to run as an automated workflow instead of execu
 
 ---
 
-![Dashboard](docs/Job-Market-Intelligence-2026-09-19-16-45-52-09-19-2026_06_08_PM.png)(docs/skill demand.jpeg)(docs/3.png)(docs/4.png)
+## Dashboard
 
+The Gold layer is consumed by a Databricks AI/BI dashboard that provides an interactive view of the analyzed job market.
 
-The Gold tables are consumed by a Databricks AI/BI dashboard containing:
+### Job Market Intelligence Dashboard
+
+![Job Market Intelligence Dashboard](docs/Job-Market-Intelligence-2026-09-19-16-45-52-09-19-2026_06_08_PM.png)
+
+### Skill Demand
+
+![Skill Demand](docs/skill%20demand.jpeg)
+
+### Additional Analytics
+
+![Country Market](docs/3.png)
+
+![Job Market Analytics](docs/4.png)
+
+The dashboard includes:
 
 * Total jobs analyzed
 * Countries represented
@@ -244,6 +259,8 @@ The Gold tables are consumed by a Databricks AI/BI dashboard containing:
 * Work-arrangement analysis
 
 The dashboard provides a business-facing view of the data produced by the engineering pipeline.
+
+
 
 ---
 
