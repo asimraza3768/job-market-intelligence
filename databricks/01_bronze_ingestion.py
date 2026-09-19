@@ -1,15 +1,15 @@
 # Databricks notebook source
 
-# MAGIC %md
-# MAGIC # 01 - Bronze Ingestion
-# MAGIC
-# MAGIC Reads raw job API responses from Amazon S3, extracts individual job
-# MAGIC records, removes duplicate job IDs, and upserts the data into the
-# MAGIC Bronze Delta table.
-# MAGIC
-# MAGIC **Source:** AWS S3 Raw Layer  
-# MAGIC **Destination:** `job_market.bronze.jobs`  
-# MAGIC **Storage Format:** Delta Lake
+#  %md
+#  # 01 - Bronze Ingestion
+# 
+#  Reads raw job API responses from Amazon S3, extracts individual job
+#  records, removes duplicate job IDs, and upserts the data into the
+#  Bronze Delta table.
+# 
+#  **Source:** AWS S3 Raw Layer  
+#  **Destination:** `job_market.bronze.jobs`  
+#  **Storage Format:** Delta Lake
 
 # COMMAND ----------
 
