@@ -1,14 +1,14 @@
 # Databricks notebook source
 
-# MAGIC %md
-# MAGIC # 02 - Silver Transformation
-# MAGIC
-# MAGIC Transforms the Bronze job data into a clean, analysis-ready Silver
-# MAGIC dataset and performs data quality validation before downstream analytics.
-# MAGIC
-# MAGIC **Source:** `job_market.bronze.jobs`  
-# MAGIC **Destination:** `job_market.silver.jobs`  
-# MAGIC **Storage Format:** Delta Lake
+#  %md
+#  # 02 - Silver Transformation
+# 
+#  Transforms the Bronze job data into a clean, analysis-ready Silver
+#  dataset and performs data quality validation before downstream analytics.
+# 
+#  **Source:** `job_market.bronze.jobs`  
+#  **Destination:** `job_market.silver.jobs`  
+#  **Storage Format:** Delta Lake
 
 # COMMAND ----------
 
@@ -128,8 +128,8 @@ silver_df.printSchema()
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Data Quality Validation
+#  %md
+#  ## Data Quality Validation
 
 # COMMAND ----------
 
@@ -240,8 +240,8 @@ silver_df.select("seniority").distinct().show()
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Data Quality Summary
+#  %md
+#  ## Data Quality Summary
 
 # COMMAND ----------
 
@@ -284,8 +284,8 @@ print("==========================================")
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Merge Into Silver Delta Table
+#  %md
+#  ## Merge Into Silver Delta Table
 
 # COMMAND ----------
 
@@ -309,8 +309,8 @@ silver_table = DeltaTable.forName(
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC ## Post-Merge Validation
+#  %md
+#  ## Post-Merge Validation
 
 # COMMAND ----------
 
