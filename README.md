@@ -15,7 +15,7 @@ The project is designed to answer practical questions such as:
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/Board.png)
 
 ### Data Flow
 
