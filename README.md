@@ -227,6 +227,11 @@ This allows the entire pipeline to run as an automated workflow instead of execu
 ---
 
 ## Dashboard
+(docs/Job-Market-Intelligence-2026-09-19-16-45-52-09-19-2026_06_08_PM.png)
+(docs/skill demand.jpeg)
+(docs/3.png)
+(docs/4.png)
+
 
 The Gold tables are consumed by a Databricks AI/BI dashboard containing:
 
