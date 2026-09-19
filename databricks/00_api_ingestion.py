@@ -1,14 +1,14 @@
 # Databricks notebook source
 
-# MAGIC %md
-# MAGIC # 00 - API Ingestion
-# MAGIC
-# MAGIC Ingests Data Engineer job listings from the JobsPipe API
-# MAGIC and stores the complete raw API responses in Amazon S3.
-# MAGIC
-# MAGIC **Source:** JobsPipe API  
-# MAGIC **Destination:** AWS S3 Raw Layer  
-# MAGIC **Orchestration:** Databricks Workflow
+#  %md
+#  # 00 - API Ingestion
+# 
+#  Ingests Data Engineer job listings from the JobsPipe API
+#  and stores the complete raw API responses in Amazon S3.
+# 
+#  **Source:** JobsPipe API  
+#  **Destination:** AWS S3 Raw Layer  
+#  **Orchestration:** Databricks Workflow
 
 # COMMAND ----------
 
